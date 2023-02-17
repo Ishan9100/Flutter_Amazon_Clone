@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "681541597265",
+    "project_id": "clone-bf040",
+    "storage_bucket": "clone-bf040.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681541597265:android:7bfd19497904a68d71e070",
+        "android_client_info": {
+          "package_name": "com.example.flutter_amazon_clone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681541597265-dledlmk0i453kb6rtvr4b3oholecnj3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwXCV75_KSGBZT4Zb1EPDbG8yLvLruBnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681541597265-dledlmk0i453kb6rtvr4b3oholecnj3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
