@@ -1,16 +1,50 @@
-# flutter_amazon_clone
+# Amazon Clone with Flutter & Firebase
 
-A new Flutter project.
+A functional Amazon Clone with the cross-platform framework, Flutter, with the backend as Firebase. Works on Android and Web
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Email & Password Authentication
+- Persistent Login
+- View different products
+- Search up for products
+- Add rating and reviews to products
+- Sell products
+- Add products to cart
+- Order products (Sends an order request to seller)
+- Sign Out
 
-A few resources to get you started if this is your first Flutter project:
+## Project View
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Amazon Clone Mobile Image](https://github.com/Ishan9100/Flutter_Amazon_Clone/blob/main/Amazon_mobile_UI.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Amazon Clone Mobile Image2](https://github.com/Ishan9100/Flutter_Amazon_Clone/blob/main/Amazon_mobile_UI2.png)
+
+![Amazon Clone Web Image](https://github.com/Ishan9100/Flutter_Amazon_Clone/blob/main/Amazon_web_UI.png)
+
+## Installation
+
+After cloning the repository, do these steps-
+
+- Create a firebase project
+- Enable Authentication
+- Enable firestore and storage (with valid rules)
+- Create Android and Web apps
+- Inside the ```main.dart``` add your own firebase options (The existing ones won't work)
+- Generate own API keys
+- Migrate to the folder and do-
+```
+flutter pub get
+flutter run //To run the project default output settings
+flutter run -d chrome --web-renderer html //To run the project on the web, and with html so that the images load
+```
+
+## Tech Used
+
+Server-
+- Firebase Firestore
+- Firebase Authentication
+- Firebase Storage
+
+Client-
+- Flutter
